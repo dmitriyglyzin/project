@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.wrapper{
+    background-image: url(../image/bg.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 48px;
+    padding-left: 10px;
+    margin-bottom: 240px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+}
+.logo{
+    margin-right: 34px;
+}
+.menu ul{
+    display: flex;
+    margin-bottom: 3px;
+}
+.menu li + li{
+    margin-left: 25px;
+}
+.menu a{
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    text-decoration: none;
+}
+.item{
+    text-align: left;
+    color: white;
+}
+.title{
+    font-weight: normal;
+    font-size: 120px;
+    line-height: 141px;
+}
+.text{
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+}
+.slick-dots{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    margin-top: 46px;
+}
+.slick-dots button{
+    font-size: 0;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: white;
+}
+.slick-dots li + li{
+    margin-left: 20px;
+}
